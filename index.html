@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="menu-title">Customize your game the way you want it to look. The speed is 2x faster at night, but there is a
+        possibility for extra lives
+        to
+        appear. Be ready to catch them! (Press space to jump)</p>
+    <div class="canvas-container">
+        <canvas class="game-canvas"></canvas>
+        <table class="customization-menu">
+            <thead>
+                <tr>
+                    <th>Bird</th>
+                    <th>Background</th>
+                    <th>Pipe</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="menu-item"><img src="assets/players/bluebird-midflap.png" class="menu-bird"
+                            id="menu-blue-bird"></td>
+                    <td class="menu-item"><img src="assets/environment/background-day.png" class="menu-background"
+                            id="menu-day-background">
+                    </td>
+                    <td class="menu-item"><img src="assets/environment/pipe-green.png" class="menu-pipe"
+                            id="menu-green-pipe"></td>
+                </tr>
+                <tr>
+                    <td class="menu-item"><img src="assets/players/redbird-midflap.png" class="menu-bird"
+                            id="menu-red-bird"></td>
+                    <td class="menu-item"><img src="assets/environment/background-night.png" class="menu-background"
+                            id="menu-night-background">
+                    </td>
+                    <td class="menu-item"><img src="assets/environment/pipe-red.png" class="menu-pipe"
+                            id="menu-red-pipe">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="menu-item"><img src="assets/players/yellowbird-midflap.png" class="menu-bird"
+                            id="menu-yellow-bird"></td>
+                    <td><span></span></td>
+                    <td><span></span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
